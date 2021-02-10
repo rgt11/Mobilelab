@@ -1,0 +1,15 @@
+1.kodingan ada di github
+https://github.com/rgt11/Mobilelab
+
+2.
+a. force close/crash
+b. force close/crash
+c. keluar hasil infinity
+
+nomor 2 itu dikenal dengan istilah NumberFormatException error ini biasanya terjadi karena variabel yang masih kosong/belum diinisialisasi
+namun tetap dipakai.cara memperbaiki errornya menurut saya yaitu menggunakan exception handling pada file main_activity.java(backend) dengan
+syntax try and catch pada tahap meminta angka,jika angkanya salah satu/keduanya kosong maka akan mengeluarkan hasil invalid input.
+
+3.Kesimpulan:
+debugger akan menangkap inputan yang ada seperti operand1=5 operand2=7,jika salah satu/keduanya kosong maka akan diberitahu oleh debugger 
+sebagai NumberFormatException,jika sudah diberi exception handling maka force close bisa dihindari.
