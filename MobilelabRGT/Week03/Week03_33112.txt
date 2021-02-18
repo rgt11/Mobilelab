@@ -1,0 +1,3 @@
+1. https://github.com/rgt11/Mobilelab
+2. jika tombol icon "+" ditekan,maka akan menambah loopingan katanya sebanyak mungkin,
+ dan jika kata ke-n nya diklik maka akan menampilkan "kata x pernah diklik".

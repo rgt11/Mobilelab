@@ -3,15 +3,11 @@ package com.example.week03_33112;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.View;
-
 import java.util.LinkedList;
 import java.util.Objects;
 
@@ -39,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 mRecyclerView.smoothScrollToPosition(jumlahKata);
             }
         });
-        for (int i = 1; i < 21; i++) {
+        for (int i = 0; i < 21; i++) {
             mDaftarKata.add("Kata " + i);
             }
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerview);
