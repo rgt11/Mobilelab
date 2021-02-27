@@ -1,0 +1,4 @@
+1. https://github.com/rgt11/MobileLab
+2. cara kerja dari aplikasi ini adalah jika kita klik 
+salah satu tombol layout, maka proses intent akan terjadi 
+dan memindahkan proses ke file class selanjutnya.
