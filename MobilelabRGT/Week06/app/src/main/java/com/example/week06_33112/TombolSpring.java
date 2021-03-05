@@ -3,7 +3,6 @@ package com.example.week06_33112;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.dynamicanimation.animation.DynamicAnimation;
 import androidx.dynamicanimation.animation.FloatPropertyCompat;
@@ -37,5 +36,4 @@ public class TombolSpring extends AppCompatButton {
         }
         return super.onTouchEvent(event);
     }
-
 }
